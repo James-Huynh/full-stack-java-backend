@@ -1,2 +1,2 @@
 # full-stack-java
-Spring Boot, React and MongoDB
+Spring Boot and MongoDB
