@@ -17,7 +17,7 @@ public class MoviesApplication {
 
 
 	@GetMapping("/")
-	public ResponseEntity apiRoot() {
+	public ResponseEntity<String> apiRoot() {
 		return new ResponseEntity<String>("Hello, world!", HttpStatus.OK);
 	}
 
